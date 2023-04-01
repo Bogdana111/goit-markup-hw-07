@@ -6,6 +6,39 @@
 .section-text {
 	font-weight: 400;
 }
+.contacts-list {
+	display: flex;
+}
+.contacts-list .contacts-item:not(:last-child) {
+	margin-right: 40px;
+}
+.contacts-mail,
+.contacts-tel {
+	padding: 24px 0;
+}
+.contacts-mail {
+	margin-bottom: 0;
+}
+.hero-section {
+	max-width: 1440px;
+	height: 600px;
+	padding: 188px 0;
+
+	background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+		url(../images/people-office.jpg);
+}
+@media screen and (min-device-pixel-ratio: 2),
+	(-webkit-min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+	.hero-section {
+		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url("../images/people-office-2x.jpg");
+	}
+}
+.hero-title {
+	margin: 0 auto 48px;
+}
 .feature-section {
 	padding: 120px 0;
 }
@@ -32,6 +65,7 @@
 	padding-bottom: 120px;
 }
 .picture-list {
+	display: flex;
 	gap: 24px;
 	justify-content: center;
 	align-items: center;

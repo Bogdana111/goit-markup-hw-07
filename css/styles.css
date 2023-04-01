@@ -67,8 +67,8 @@ ul {
 	padding: 0 15px;
 	margin: 0 auto;
 }
-/* Logo */
-.logo {
+
+/* .logo {
 	padding: 24px 0;
 	margin-right: 76px;
 
@@ -84,7 +84,7 @@ ul {
 .logo-desc {
 	color: var(--primary-color);
 }
-/* Navigation */
+
 .page-header {
 	border-bottom: 1px solid var(--light-text-color);
 	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -134,7 +134,7 @@ ul {
 	border-radius: 2px;
 	background-color: var(--accent-color);
 }
-/* Contacts */
+
 .contacts {
 	margin-left: auto;
 }
@@ -164,57 +164,7 @@ ul {
 .contacts-tel:hover,
 .contacts-tel:focus {
 	color: var(--accent-color);
-}
-/* Hero section */
-.hero-section {
-	max-width: 1440px;
-	height: 600px;
-	padding: 188px 0;
-	margin-right: auto;
-	margin-left: auto;
-
-	background-color: var(--primary-color);
-	background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-		url(../images/people-office.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	text-align: center;
-}
-.hero-title {
-	margin: 0 auto 48px;
-	width: 496px;
-
-	color: var(--white-color);
-
-	font-weight: 700;
-	font-style: normal;
-	font-size: 56px;
-	line-height: 1.07;
-	letter-spacing: 0.02em;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.hero-button {
-	padding: 16px 32px;
-	margin: 0 auto;
-
-	color: var(--white-color);
-	background-color: var(--primary-brand);
-
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	transition-property: background;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-button:hover,
-.hero-button:focus {
-	background-color: var(--accent-color);
-}
+} */
 /* Main */
 .main-title {
 	margin-bottom: 72px;
@@ -227,110 +177,6 @@ ul {
 	text-transform: capitalize;
 }
 
-/* Footer */
-/* .footer {
-	background-color: var(--primary-color);
-	padding: 100px 0;
-}
-.footer-container {
-	display: flex;
-}
-.footer-logo-container {
-	margin-right: 120px;
-}
-.footer-title {
-	color: var(--white-color);
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	margin-bottom: 16px;
-}
-.footer-list {
-	display: flex;
-	gap: 16px;
-}
-.footer-link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	padding: 8px;
-
-	background: rgba(255, 255, 255, 0.1);
-	border-radius: 50%;
-	background-size: 40px;
-	transition-property: background;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-link:hover,
-.footer-link:focus {
-	background-color: var(--success);
-}
-.footer-form-container {
-	margin-left: 80px;
-}
-.footer-form {
-	display: flex;
-	align-items: center;
-}
-.footer-input {
-	margin-right: 24px;
-	padding-left: 16px;
-
-	width: 264px;
-	height: 40px;
-
-	color: var(--white-color);
-	font-size: 12px;
-	line-height: 2;
-	letter-spacing: 0.04em;
-
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	border-radius: 4px;
-	background-color: transparent;
-	transition-property: border;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-input:focus {
-	border-color: var(--accent-color);
-	outline: none;
-}
-.footer-input::placeholder {
-	font-family: "Roboto";
-	font-size: 12px;
-	line-height: 2;
-	letter-spacing: 0.04em;
-	color: rgba(255, 255, 255, 0.6);
-}
-.footer-btn {
-	display: flex;
-	align-items: center;
-	padding: 8px 24px;
-
-	color: var(--white-color);
-	background-color: var(--primary-brand);
-	border-color: var(--primary-brand);
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	transition-property: background, border;
-	transition-duration: 250ms, 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-btn:hover,
-.footer-btn:focus {
-	background-color: var(--accent-color);
-	border-color: var(--accent-color);
-}
-.footer-icon {
-	margin-left: 16px;
-} */
 /* ----------PORTFOLIO--------- */
 .portfolio {
 	padding-top: 96px;
