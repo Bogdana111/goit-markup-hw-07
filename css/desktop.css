@@ -43,7 +43,7 @@
 	padding: 120px 0;
 }
 .container {
-	min-width: 1158px;
+	width: 1158px;
 }
 .feature-list {
 	gap: 24px;
